@@ -1,5 +1,5 @@
 {
-  "name": "skku-menu",
+  "name": "lab07_hoseong",
   "version": "1.0.0",
   "description": "test",
   "main": "index.js",
@@ -9,13 +9,26 @@
   "scripts": {
     "test": "echo \\\"Error: notest specified\\\" && exit 1"
   },
-  "bin":{
-    "menu":"./lab6.js"
+  "bin": {
+    "menu": "lab6.js",
+    "stat": "lab7.js"
   },
   "author": "itsme",
   "license": "ISC",
   "dependencies": {
     "hangul-js": "^0.2.6",
     "node-html-parser": "^5.3.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wmt3/oss_lab7.git"
+  },
+  "keywords": [
+    "lablab"
+  ],
+  "bugs": {
+    "url": "https://github.com/Wmt3/oss_lab7/issues"
+  },
+  "homepage": "https://github.com/Wmt3/oss_lab7#readme"
 }
