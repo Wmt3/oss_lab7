@@ -1,0 +1,21 @@
+{
+  "name": "skku-menu",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \\\"Error: notest specified\\\" && exit 1"
+  },
+  "bin":{
+    "menu":"./lab6.js"
+  },
+  "author": "itsme",
+  "license": "ISC",
+  "dependencies": {
+    "hangul-js": "^0.2.6",
+    "node-html-parser": "^5.3.3"
+  }
+}
